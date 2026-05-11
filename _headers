@@ -1,0 +1,16 @@
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), interest-cohort=()
+  X-XSS-Protection: 0
+  X-Robots-Tag: index, follow
+
+/debug/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/.env
+  X-Robots-Tag: noindex, nofollow, noarchive
+
+/wp-admin/*
+  X-Robots-Tag: noindex, nofollow, noarchive

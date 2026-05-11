@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /debug/
+Disallow: /.env
+Disallow: /.git/
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Disallow: /administrator/
+Disallow: /vendor/
+Disallow: /backup
+Sitemap: https://popophone.vn/sitemap.xml
